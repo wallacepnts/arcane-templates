@@ -1,16 +1,21 @@
 {
   "$schema": "https://registry.getarcane.app/schema.json",
   "name": "Arcane Wallace Templates",
-  "description": "Community Docker Compose Templates for Arcane",
+  "description": "Wallace Docker Compose Templates for Arcane",
   "author": "Wallace",
-  "url": "https://github.com/getarcaneapp/templates",
+  "url": "https://github.com/wallacepnts/arcane-templates",
   "version": "1",
   "templates": [
     {
       "id": "actual",
       "name": "Actual Budget",
+      "description": "Production-ready WordPress with MariaDB and health checks.",
+      "version": "1.2.3",
+      "author": "Acme Corp",
       "compose_url": "https://raw.githubusercontent.com/wallacepnts/arcane-templates/refs/heads/main/templates/actual/compose.yml",
-      "documentation_url": "https://github.com/getarcaneapp/templates/tree/main/templates/convertx"
+      "env_url": "https://raw.githubusercontent.com/wallacepnts/arcane-templates/refs/heads/main/templates/actual/.env.example",
+      "documentation_url": "https://github.com/wallacepnts/arcane-templates/tree/main/templates/actual",
+      "tags": ["cms", "php", "wordpress"]
     }
   ]
 }
