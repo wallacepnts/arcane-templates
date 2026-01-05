@@ -9,7 +9,7 @@
     {
       "id": "actual",
       "name": "Actual Budget",
-      "compose_url": "https://registry.getarcane.app/templates/convertx/compose.yml",
+      "compose_url": "https://raw.githubusercontent.com/wallacepnts/arcane-templates/refs/heads/main/templates/actual/compose.yml",
       "documentation_url": "https://github.com/getarcaneapp/templates/tree/main/templates/convertx",
     }
   ]
