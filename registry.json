@@ -7,15 +7,15 @@
   "version": "1",
   "templates": [
     {
-      "id": "actual-budget",
-      "name": "Actual Budget",
-      "description": "Production-ready WordPress with MariaDB and health checks.",
-      "version": "1.2.3",
-      "author": "Acme Corp",
+      "id": "actual",
+      "name": "Actual",
+      "description": "Ferramenta de finanças pessoais de código aberto, focada em privacidade.",
+      "version": "26.1.0",
+      "author": "James Long",
       "compose_url": "https://raw.githubusercontent.com/wallacepnts/arcane-templates/refs/heads/main/templates/actual/compose.yml",
       "env_url": "https://raw.githubusercontent.com/wallacepnts/arcane-templates/refs/heads/main/templates/actual/.env.example",
       "documentation_url": "https://github.com/wallacepnts/arcane-templates/tree/main/templates/actual",
-      "tags": ["cms", "php", "wordpress"]
+      "tags": ["finanças", "orçamento", "controle-financeiro"]
     }
   ]
 }
