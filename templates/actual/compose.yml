@@ -1,14 +1,14 @@
 services:
   actual:
     image: docker.io/actualbudget/actual-server:latest
-    container_name: actual
+    container_name: ${APP}
     labels:
       tsdproxy.enable: true
-      tsdproxy.name: actual
+      tsdproxy.name: ${APP}
     ports:
       - '5006:5006'
     volumes:
-      - /srv/docker/actual:/data
+      - ${DOCKER_APPS}/${APP}:/data
     healthcheck:
       test: ['CMD-SHELL', 'node src/scripts/health-check.js']
       interval: 60s

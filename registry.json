@@ -7,7 +7,7 @@
   "version": "1",
   "templates": [
     {
-      "id": "actual",
+      "id": "actual-budget",
       "name": "Actual Budget",
       "description": "Production-ready WordPress with MariaDB and health checks.",
       "version": "1.2.3",
