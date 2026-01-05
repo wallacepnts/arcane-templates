@@ -1,0 +1,16 @@
+{
+  "$schema": "https://registry.getarcane.app/schema.json",
+  "name": "Arcane Wallace Templates",
+  "description": "Community Docker Compose Templates for Arcane",
+  "author": "Wallace",
+  "url": "https://github.com/getarcaneapp/templates",
+  "version": "1",
+  "templates": [
+    {
+      "id": "actual",
+      "name": "Actual Budget",
+      "compose_url": "https://registry.getarcane.app/templates/convertx/compose.yml",
+      "documentation_url": "https://github.com/getarcaneapp/templates/tree/main/templates/convertx",
+    }
+  ]
+}
